@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Web Page!</title>
+    <style>
+      h1 {
+        color: green;
+        text-align: center;
+      }
+
+      div {
+        background-color: lightblue;
+        width: 600px;
+        height: 200px;
+        margin: 30px;
+        padding: 20px;
+      }
+
+      #top {
+        font-size: 36px;
+        color: red;
+      }
+
+      #middle {
+        font-size: 28px;
+        color: orange;
+      }
+
+      #bottom {
+        font-size: 20px;
+        color: yellow;
+      }
+
+      .name {
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Welcome to My Web Page!</h1>
+    <p>My name is Jonny Pei.</p>
+    <p>I enjoy coding and exploring astronomy.</p>
+    <div id="top">
+      This is the <span class="name">top</span> of my web page.
+    </div>
+    <div id="middle">
+      This is the <span class="name">middle</span> of my web page.
+    </div>
+    <div id="bottom">
+      This is the <span class="name">bottom</span> of my web page.
+    </div>
+  </body>
+</html>
